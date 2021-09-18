@@ -1,0 +1,63 @@
+###
+Post http://localhost:3001/register/
+Content-Type: application/json
+
+{
+  "username": "Dhanush1410",
+  "password": "dontknow",
+  "name": "Dhanush Reddy",
+  "gender": "male"
+}
+
+
+###
+Post http://localhost:3001/login/
+Content-Type: application/json
+
+{
+  "username":"Dhanush1410",
+  "password":"dontknow"
+}
+
+
+###
+Get http://localhost:3001/user/tweets/feed/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjMxOTI5MjA2fQ.JdPXnJ_-8HPrU4BCsGan-dKTzXLJLSSwSo_W_SMnP-U
+
+###
+Get http://localhost:3001/user/following/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjMxOTI5MjA2fQ.JdPXnJ_-8HPrU4BCsGan-dKTzXLJLSSwSo_W_SMnP-U
+
+
+###
+Get http://localhost:3001/user/followers/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjMxOTI5MjA2fQ.JdPXnJ_-8HPrU4BCsGan-dKTzXLJLSSwSo_W_SMnP-U
+
+
+###
+Get http://localhost:3001/tweets/10/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjMxOTI5MjA2fQ.JdPXnJ_-8HPrU4BCsGan-dKTzXLJLSSwSo_W_SMnP-U
+
+###
+Get http://localhost:3001/tweets/11/likes/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjMxOTI5MjA2fQ.JdPXnJ_-8HPrU4BCsGan-dKTzXLJLSSwSo_W_SMnP-U
+
+###
+Get http://localhost:3001/tweets/10/replies/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjMxOTI5MjA2fQ.JdPXnJ_-8HPrU4BCsGan-dKTzXLJLSSwSo_W_SMnP-U
+
+###
+Get http://localhost:3001/user/tweets/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkRoYW51c2gxNDEwIiwiaWF0IjoxNjMxOTM1Mzk4fQ.lYgpDymGCgpOTEuL8mw127RY8NN07QOh8C8PGC-3mXg
+###
+Post http://localhost:3001/user/tweets/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkRoYW51c2gzMTYwIiwiaWF0IjoxNjMxOTM0MDk1fQ.lwaqtcUp0ixbOK5CYDCTlHhxd_WrkkIwCNSATHbRc9M
+Content-Type: application/json
+
+{
+   "tweet": "Never say everything you know"
+}
+
+###
+Delete http://localhost:3001/tweets/4/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjMxNzg5OTE1fQ.5d6iDrBazlUgVgyTNkc0u4aR2kb8WpJ6_eP1T8WBbbg
