@@ -15,9 +15,10 @@ Post http://localhost:3001/login/
 Content-Type: application/json
 
 {
-  "username":"Dhanush1410",
-  "password":"dontknow"
+  "username": "Dhanush1410",
+  "password": "dontknow"
 }
+
 
 
 ###
@@ -48,10 +49,11 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZ
 
 ###
 Get http://localhost:3001/user/tweets/
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkRoYW51c2gxNDEwIiwiaWF0IjoxNjMxOTM1Mzk4fQ.lYgpDymGCgpOTEuL8mw127RY8NN07QOh8C8PGC-3mXg
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkRoYW51c2gxNDEwIiwiaWF0IjoxNjMyMTg4ODkwfQ.U5yumbu8-fV3776ius2suzgYmlYbf15brOobRrrJPZk
+
 ###
 Post http://localhost:3001/user/tweets/
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkRoYW51c2gzMTYwIiwiaWF0IjoxNjMxOTM0MDk1fQ.lwaqtcUp0ixbOK5CYDCTlHhxd_WrkkIwCNSATHbRc9M
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkRoYW51c2gxNDEwIiwiaWF0IjoxNjMxOTM1Mzk4fQ.lYgpDymGCgpOTEuL8mw127RY8NN07QOh8C8PGC-3mXg
 Content-Type: application/json
 
 {

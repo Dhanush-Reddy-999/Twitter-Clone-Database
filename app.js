@@ -218,7 +218,7 @@ app.get("/user/tweets/", authenticateToken, async (request, response) => {
    group by tweet,dateTime`;
   const getTweetsInfo = await db.all(getTweetsInfoQuery);
   if (getTweetsInfo[0].tweet === null) {
-    response.send();
+    response.send([]);
   } else {
     response.send(getTweetsInfo);
   }
